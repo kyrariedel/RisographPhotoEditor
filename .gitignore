@@ -1,0 +1,33 @@
+# CMake / compiler output
+build/
+_build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeUserPresets.json
+compile_commands.json
+*.o
+*.a
+*.dylib
+*.so
+*.dSYM/
+
+# Local binary (also produced inside build/)
+riso_tool
+
+# Runtime export from the tool
+riso_output/
+
+# Course submission leftovers (PDF report, not part of the public repo)
+submission/
+
+# Large local ML weights (not in this tree; do not commit if added)
+model_fp16.onnx
+*.onnx
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
